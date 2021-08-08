@@ -1,0 +1,95 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/space.jpg);
+    background-size: cover;
+    
+}   
+
+#sun{
+    width: 110px;
+    height: 110px;
+    position: fixed;
+    top:50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+
+}
+
+#orbit{
+    border: 1px solid #fff;
+    position: relative;
+    border-radius: 50%;
+    position: fixed;
+    top:50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    background-color: rgba(0, 0, 0, 0.0);
+    
+}
+
+.orbit-venus{
+    width: 200px;
+    height: 200px;
+   
+}
+
+.orbit-mercury{
+    width: 260px;
+    height: 260px;
+   
+}
+
+.orbit-earth{
+    width: 320px;
+    height: 320px;
+   
+}
+
+.orbit-mars{
+    width: 380px;
+    height: 380px;
+   
+}
+
+.orbit-jupiter{
+    width: 440px;
+    height: 440px;
+   
+}
+
+.orbit-saturn{
+    width: 500px;
+    height: 500px;
+   
+}
+
+.orbit-uranus{
+    width: 560px;
+    height: 560px;
+   
+}
+
+.orbit-neptune{
+    width: 620px;
+    height: 620px;
+   
+}
+.planet{  
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: absolute;
+   
+}
+@keyframes spin {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
